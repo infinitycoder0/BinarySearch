@@ -1,5 +1,5 @@
 // Created by Infinity
-// problem link ->
+// problem link -> https://practice.geeksforgeeks.org/problems/searching-a-number0324/1
 
 #include <bits/stdc++.h>
 
@@ -19,6 +19,8 @@ void init_code() {
 #endif
 }
 
+
+
 int linearSearch(int arr[], int target, int n) {
 
 	for (int i = 0; i < n; i++) {
@@ -26,8 +28,6 @@ int linearSearch(int arr[], int target, int n) {
 	}
 	return -1;
 }
-
-
 
 
 int main()
@@ -41,10 +41,6 @@ int main()
 
 	int ans = linearSearch(arr, target, n);
 	cout << ans << endl;
-
-
-
-
 
 	return 0;
 }
